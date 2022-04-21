@@ -14,12 +14,12 @@ public class Main {
         return a;
     }
 
-    public static int intMin(int higher, int lower){
-        if(higher > lower){
-            return lower;
-        } else if ((higher < lower)) {
-            return higher;
+    public static int intMin(int max, int min){
+        if(max > min){
+            return min;
+        } else if ((max < min)) {
+            return max;
         }
-        return higher;
+        return max;
     }
 }
