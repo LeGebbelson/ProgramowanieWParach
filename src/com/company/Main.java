@@ -22,4 +22,13 @@ public class Main {
         }
         return max;
     }
+
+    public static boolean isPositive(int liczba) {
+        if (liczba >= 0) {
+            System.out.println("Dodatnia");
+        } else {
+            return false;
+        }
+        return true;
+    }
 }
