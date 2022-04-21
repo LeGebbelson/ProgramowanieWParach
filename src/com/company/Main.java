@@ -13,4 +13,13 @@ public class Main {
         }
         return a;
     }
+
+    public static int intMin(int higher, int lower){
+        if(higher > lower){
+            return lower;
+        } else if ((higher < lower)) {
+            return higher;
+        }
+        return higher;
+    }
 }
