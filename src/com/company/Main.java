@@ -23,12 +23,11 @@ public class Main {
         return max;
     }
 
-    public static boolean isPositive(int liczba) {
-        if (liczba >= 0) {
-            System.out.println("Dodatnia");
+    public static boolean isPositive(int a) {
+        if (a >= 0) {
+            return true;
         } else {
             return false;
         }
-        return true;
     }
 }
